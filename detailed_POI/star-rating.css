@@ -1,0 +1,19 @@
+.con{
+    height: auto;
+    width: auto;
+    /* position: absolute; */
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;        
+}
+
+.fas { 
+    font-family: 'FontAwesome' !important; 
+}
+
+.fa-star{
+    font-size: 15px;
+    font-style: normal;
+}

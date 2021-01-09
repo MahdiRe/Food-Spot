@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+    font-family: "TW Cen MT";
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+    .logo_main {
+        height: 100%;
+        width: 100%;
+        margin-top: 15px;
+        border: black 2px solid;
+    }
+
+    .logo_container img {
+        height: 55px;
+        width: 12%;
+        margin-left: 45%;
+        margin-right: 55%;
+    }
+
+    .headerTopic {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .mainHeader {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .subheader {
+        font-size: 14px;
+        color: rgb(141, 141, 141);
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .logo_main {
+        height: 100%;
+        width: 100%;
+        margin-top: 15px;
+        border: black 2px solid;
+    }
+
+    .logo_container img {
+        height: 60px;
+        width: 12%;
+        margin-left: 45%;
+        margin-right: 55%;
+    }
+
+    .headerTopic {
+        text-align: center;
+        margin-top: 5px;
+        
+    }
+
+    .mainHeader {
+        font-weight: bold;
+        font-size: 24px;
+
+    }
+
+    .subheader {
+        font-size: 14px;
+        color: rgb(141, 141, 141);
+
+    }
+
+
+   
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .logo_main {
+        height: 100%;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 38%;
+        border: black 2px solid;
+    }
+
+    .logo_container img {
+        height: 34px;
+        width: 13%;
+        margin-left: 5%;
+        margin-right: 55%;
+    }
+
+    .headerTopic {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .mainHeader {
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+
+    .subheader {
+        font-size: 10px;
+        color: rgb(141, 141, 141);
+    }
+
+   
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+    .logo_main {
+        height: 100%;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 40%;
+    }
+
+    .logo_container img {
+        height: 34px;
+        width: 10%;
+        margin-left: 5%;
+        margin-right: 55%;
+    }
+
+    .headerTopic {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .mainHeader {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .subheader {
+        font-size: 10px;
+        color: rgb(141, 141, 141);
+
+    }
+ 
+}
+
+.back{
+    border: black 2px solid;
+    width: 25%;
+    float: left;
+    margin-top: 11px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container img {
+    margin-top: 5px;
+    width: 10px;
+    height: 250px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/* Quantity adjuster */
+
+.input-group-field {
+    float: left;
+    width: 28%;
+}
+
+.minus {
+    float: left;
+    width: 30%;
+}
+
+.plus{
+    float: left;
+    width: 28%;
+}
+
+
+/* main */
+.box{
+    border: black 2px solid; 
+    height: 250px;
+}
+
+.item-head {
+    border: black 2px solid; 
+    width: 60%; 
+    height: auto; 
+    float: left;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.item-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 2px solid; 
+    width: 40%; 
+    height: 35%; 
+    float:right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item-qty{
+    border: black 2px solid; 
+    width: 40%; 
+    height: auto; 
+    float:right;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.cart{
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 60%;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.buy{
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 40%;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/* .buy-now{
+    color: white;
+    background: black;
+} */
+  
