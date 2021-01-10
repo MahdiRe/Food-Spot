@@ -143,7 +143,7 @@
 }
 
 .back{
-    border: black 2px solid;
+    /* border: black 2px solid; */
     width: 25%;
     float: left;
     margin-top: 11px;
@@ -269,35 +269,45 @@
 
 /* main */
 .box{
-    border: black 2px solid; 
+    position: relative;
+    /* border: black 2px solid;  */
     height: 250px;
+    border-radius: 20px 20px 30px 20px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(128, 128, 128);
 }
 
 .item-head {
-    border: black 2px solid; 
-    width: 60%; 
+    position: relative;
+    /* border: black 2px solid;  */
+    width: 55%; 
     height: auto; 
     float: left;
+    margin-top: 15px;
+    margin-left: 2%;
 }
 
 .title{
+    position: relative;
     font-size: 25px;
 }
 
 .item-price{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: black 2px solid; 
+    /* border: black 2px solid;  */
     width: 40%; 
-    height: 35%; 
+    height: 87.5px; 
     float:right;
     font-size: 25px;
     font-weight: bold;
 }
 
 .item-qty{
-    border: black 2px solid; 
+    position: relative;
+    /* border: black 2px solid;  */
     width: 40%; 
     height: auto; 
     float:right;
@@ -307,7 +317,7 @@
 }
 
 .cart{
-    border: black 2px solid;
+    /* border: black 2px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,10 +325,11 @@
     width: 60%;
     font-style: normal;
     font-size: 25px;
+    padding: 10px;;
 }
 
 .buy{
-    border: black 2px solid;
+    /* border: black 2px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,10 +337,27 @@
     width: 40%;
     font-style: normal;
     font-size: 25px;
+    padding: 10px;
 }
 
 /* .buy-now{
     color: white;
     background: black;
 } */
+
+.quick-notes{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-style: normal;
+    padding: 5%;
+}
+
+.note{
+    padding: 5px;
+}
+
+.dot-list {
+    text-align:center;
+}
   

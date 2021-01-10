@@ -1,0 +1,131 @@
+<script>
+    //===========================
+    // POI
+    //=========================
+    //(1)save data
+    var POI_Lists_Array = [];
+
+    var POI_Object =
+    {
+        productID: 1,
+        shop: "Nufail bun shop",
+        picture: ["bun.jpg", "cart.png", "cart2.png", "heart.png", "heart2.png", "Sample.mp4"],
+        name: "Chicken Submarine",
+        description: "Home made pasta with sun kissed milk sauce, chilli, olive oil and egg all mixed together Italian pasta....",
+        price: 200,
+        rating: 4,
+        isFavourite : false
+    }
+
+    POI_Lists_Array.push(POI_Object);
+
+    localStorage.POI_Object = JSON.stringify(POI_Lists_Array);
+    console.log(POI_Lists_Array)
+
+    // // (2)save newdata
+
+    var POI_Object = {
+        productID: 2,
+        shop: "Nufail bun shop",
+        picture: ["brownbutter.jpg", "cart.png", "cart2.png", "heart.png", "heart2.png", "Sample.mp4"],
+        name: "Butter Pasta",
+        description: "Home made pasta with sun kissed milk sauce, chilli, olive oil and egg all mixed together Italian pasta....",
+        price: 300,
+        rating: 3,
+        isFavourite : false
+    }
+
+    POI_Lists_Array = JSON.parse(localStorage.POI_Object)
+    POI_Lists_Array.push(POI_Object);
+
+    localStorage.POI_Object = JSON.stringify(POI_Lists_Array);
+    console.log(POI_Lists_Array)
+
+    var POI_Object = {
+        productID: 3,
+        shop: "EatMore",
+        picture: ["pastaa.jpg", "cart.png", "cart2.png", "heart.png", "heart2.png", "Sample.mp4"],
+        name: "Veg Pasta",
+        description: "Home made pasta with sun kissed milk sauce, chilli, olive oil and egg all mixed together Italian pasta....",
+        price: 250,
+        rating: 4,
+        isFavourite : false
+    }
+
+    POI_Lists_Array = JSON.parse(localStorage.POI_Object)
+    POI_Lists_Array.push(POI_Object);
+
+    localStorage.POI_Object = JSON.stringify(POI_Lists_Array);
+    console.log(POI_Lists_Array)
+
+    var POI_Object = {
+        productID: 4,
+        shop: "EatMore",
+        picture: ["images.jpg", "cart.png", "cart2.png", "heart.png", "heart2.png", "Sample.mp4"],
+        name: "Chease Pasta",
+        description: "Home made pasta with sun kissed milk sauce, chilli, olive oil and egg all mixed together Italian pasta....",
+        price: 150,
+        rating: 2,
+        isFavourite : false
+    }
+
+    POI_Lists_Array = JSON.parse(localStorage.POI_Object)
+    POI_Lists_Array.push(POI_Object);
+
+    localStorage.POI_Object = JSON.stringify(POI_Lists_Array);
+    console.log(POI_Lists_Array)
+
+    var POI_Object = {
+        productID: 5,
+        shop: "Dish",
+        picture: ["pasta3.jpg", "cart.png", "cart2.png", "heart.png", "heart2.png", "Sample.mp4"],
+        name: "Chili Veg Pasta",
+        description: "Home made pasta with sun kissed milk sauce, chilli, olive oil and egg all mixed together Italian pasta....",
+        price: 100,
+        rating: 1,
+        isFavourite : false
+    }
+
+    POI_Lists_Array = JSON.parse(localStorage.POI_Object)
+    POI_Lists_Array.push(POI_Object);
+
+    localStorage.POI_Object = JSON.stringify(POI_Lists_Array);
+    console.log(POI_Lists_Array)
+
+    var POI_Object = {
+        productID: 5,
+        shop: "Dish",
+        picture: ["Prowns.jpg", "cart.png", "cart2.png", "heart.png", "heart2.png", "Sample.mp4"],
+        name: "Prawn Chili Pasta",
+        description: "Home made pasta with sun kissed milk sauce, chilli, olive oil and egg all mixed together Italian pasta....",
+        price: 250,
+        rating: 4,
+        isFavourite : false
+
+    }
+
+    POI_Lists_Array = JSON.parse(localStorage.POI_Object)
+    POI_Lists_Array.push(POI_Object);
+
+    localStorage.POI_Object = JSON.stringify(POI_Lists_Array);
+    console.log(POI_Lists_Array)
+
+    var POI_Object = {
+        productID: 5,
+        shop: "Nufail bun Shop",
+        picture: ["soya.jpg", "cart.png", "cart2.png", "heart.png", "heart2.png", "Sample.mp4"],
+        name: "Soya Cheese Pasta",
+        description: "Home made pasta with sun kissed milk sauce, chilli, olive oil and egg all mixed together Italian pasta....",
+        price: 200,
+        rating: 5,
+        isFavourite : false
+
+    }
+
+    POI_Lists_Array = JSON.parse(localStorage.POI_Object)
+    POI_Lists_Array.push(POI_Object);
+
+    localStorage.POI_Object = JSON.stringify(POI_Lists_Array);
+    console.log(POI_Lists_Array)
+
+</script>
