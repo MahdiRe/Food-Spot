@@ -18,3 +18,15 @@
     font-style: normal;
     color: gray;
 }
+
+.star-rate {
+    max-width: 280px;
+    width: 150px;
+    height: 100px;
+    padding: auto;
+}
+
+.pop-head {
+    margin-top: 10px;
+    font-weight: bold;
+}

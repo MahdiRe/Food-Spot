@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>
+        5 Star Rating
+    </title>
+
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="rate.css">
+    <script src="rate.js"></script>
+
+
+</header>
+
+<body>
+    <div class="con">
+        <i class="fas fa-star" id="s1"></i>
+        <i class="fas fa-star" id="s2"></i>
+        <i class="fas fa-star" id="s3"></i>
+        <i class="fas fa-star" id="s4"></i>
+        <i class="fas fa-star" id="s5"></i>
+    </div>
+
+    <a href="#star-rate" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline"
+        data-transition="pop">Basic Popup</a>
+
+
+    <div data-role="popup" id="star-rate" class="star-rate" data-dismissible="false">
+        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+        <div class="pop-head">
+            Rate the Food
+        </div>
+        <br>
+        <div class="con">
+            <i class="fas fa-star" id="e1"></i>
+            <i class="fas fa-star" id="e2"></i>
+            <i class="fas fa-star" id="e3"></i>
+            <i class="fas fa-star" id="e4"></i>
+            <i class="fas fa-star" id="e5"></i>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -41,14 +41,17 @@ $(document).ready(function () {
     $("#set-desc").html(setDesc);
     $("#set-item-price").html(setItemPrice);
     
-
-
-    // $.getJSON("test.json", function(data){
-    //     console.log(data.name); // Prints: Harry
-    //     console.log(data.age); // Prints: 14
-    // }).fail(function(){
-    //     console.log("An error has occurred.");
-    // });
+    var starIds = '';
+    var rating = ListOfPOI[0].rating;
+    for(var i=0; i<rating; i++){
+        if (i!=(rating-1)){
+            starIds += '#s' + (i+1) + ',';
+        }else{
+            starIds += '#s' + (i+1);
+        }
+    }
+    // console.log(starIds);
+    $(starIds).css("color", "black");
 
     showSlides(slideIndex);
 
@@ -77,8 +80,6 @@ $(document).ready(function () {
         $(".fa-star").css("color", "black");
         $(".fa-star").css("color", "yellow");
     });
-
-    // $(".con").insertAfter($(".item"));
 
 
 
