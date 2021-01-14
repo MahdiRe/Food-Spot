@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delivery address</title>
+
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="delivery_address.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="delivery_address.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css"/> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTrPuSZrfHJosrWH0De9A6HFnY7L83DMc&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <!-- key: AIzaSyDTrPuSZrfHJosrWH0De9A6HFnY7L83DMc -->
+</head>
+
+<body>
+
+    <div style="background-color: white; padding-left: 12px;padding-right: 12px;" id="page-one" data-role="page">
+
+        <div class="back">
+            <button type="button" class="go-back" data-inline="true" data-mini="true">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="logo_main">
+            <div class="logo_container"><img src="../sub1.jpg"></div>
+        </div>
+
+        <h1>Select your delivery address</h1>
+
+        <!--The div element for the map -->
+        <div id="map"></div>
+
+        <div id="map-address">
+            <!-- <i class="fa fa-map-marker" aria-hidden="true"></i> -->
+            <div id="map-address-text"></div>
+        </div>
+
+        <div id="address">
+            <input id="address-input" data-wrapper-class="input-group-field" type="text" name="address" placeholder="Address line 1 (Optional)">
+        </div>
+
+        <button type="button" id="confirm" class="ui-btn ui-btn-b">Confirm</button>
+
+    </div>
+
+</body>
+
+</html>
