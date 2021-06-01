@@ -9,4 +9,6 @@ The application is able to,
 * Online payment facility
 * Food delivery tracking
 
+Video demonstration: https://youtu.be/SllDae-2BkI
+
 A speacial thanks to team members Nufail, Nishanth and Naweed for contributing to the project.
